@@ -13,7 +13,7 @@
 li.octocat > a >img {
   border:solid black 1px;
   width:95%;
-  margin-bottom: 10px;
+  margin-bottom: 0px;
 
 }
 .image-footer {
@@ -31,7 +31,7 @@ div.image-footer:before {
   border-top-color: #cacaca;
   position: relative;
   right: -407px;
-  top: -14px;
+  top: -4px;
 }
 .image-caption {
   display:inline-block;
@@ -47,15 +47,22 @@ div.image-caption {
 
 ul.authors {
   display: inline-block;
-  padding:0;
+  padding-bottom: 6px;
+    position: relative;
+    right: -3px;
 }
 
 .image-caption > a {
   text-decoration: none;
   color:#777;
+  position: relative;
+  right:-2em;
+  bottom:6px;
 }
 .image-number {
   color:grey;
+  position:relative;
+  top:4px;
 
 }
 .image-number:before {
@@ -64,4 +71,10 @@ ul.authors {
   margin:5px 0;
   color:#CACACA;
 
+}
+.image-caption > span {
+ display: inline-block;
+ position: relative;
+ right: -2em;
+ bottom:6px;
 }
